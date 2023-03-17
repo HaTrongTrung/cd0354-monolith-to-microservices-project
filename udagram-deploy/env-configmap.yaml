@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+  namespace: default
+data:
+  POSTGRES_HOST: project3-db.c2xwtmuwd1zs.us-east-1.rds.amazonaws.com
+  AWS_BUCKET: project3-666594337469-dev
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  URL: http://localhost:8100

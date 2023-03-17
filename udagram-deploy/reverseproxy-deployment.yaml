@@ -19,4 +19,4 @@ spec:
         image: hatrongtrung/reverseproxy:v1
         imagePullPolicy: Always
         ports:
-        - containerPort: 8100
+        - containerPort: 8080
